@@ -1,0 +1,5 @@
+.env
+.env.*
+*.map
+node_modules/
+src/

@@ -1,0 +1,8 @@
+Copyright (c) 2026 Tech Law Park. All rights reserved.
+
+This repository contains compiled deployment artifacts for contest evaluation.
+The original source code is not distributed here. No permission is granted to
+copy, modify, redistribute, or create derivative works from these artifacts
+except as required to access and run the hosted game in a web browser.
+
+Third-party components remain subject to the notices in THIRD_PARTY_NOTICES/.
