@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; media-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'"
+    />
+    <link rel="icon" href="data:," />
+    <meta name="theme-color" content="#1a1c2c" />
+    <meta name="description" content="부동산 연대기: 코덱시아 — 3분 이내 실제 게임플레이 데모" />
+    <title>부동산 연대기: 코덱시아 — Demo Video</title>
+    <style>
+      :root { color-scheme: dark; font-family: system-ui, sans-serif; background: #1a1c2c; color: #fff7df; }
+      * { box-sizing: border-box; }
+      body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 24px; background: radial-gradient(circle at 50% 10%, #30355b, #1a1c2c 55%); }
+      main { width: min(100%, 1120px); }
+      .eyebrow { color: #71d2ba; letter-spacing: .13em; font-size: 13px; font-weight: 800; }
+      h1 { margin: 8px 0 6px; color: #ffd866; font-size: clamp(25px, 4vw, 44px); }
+      p { margin: 0 0 18px; color: #c9c8d4; }
+      video { width: 100%; aspect-ratio: 16 / 9; display: block; background: #0d0f1e; border: 3px solid #ffd866; box-shadow: 10px 10px 0 #101327; }
+      nav { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
+      a { color: #1a1c2c; background: #ffd866; border: 2px solid #101327; padding: 11px 16px; font-weight: 800; text-decoration: none; box-shadow: 4px 4px 0 #101327; }
+      a.secondary { color: #fff7df; background: #30355b; }
+      small { display: block; margin-top: 15px; color: #8e90a7; }
+      @media (max-width: 600px) { body { place-items: start center; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="eyebrow">실제 플레이 데모</div>
+      <h1>격동의 5년 속에서 부동산으로 부를 일구어라.</h1>
+      <p>실제 플레이로 핵심 규칙과 역전 과정을 보여 주는 3분 이내 데모</p>
+      <video controls preload="metadata" poster="./codexia-demo-poster.jpg">
+        <source src="./codexia-demo.mp4" type="video/mp4" />
+        <track default kind="captions" srclang="ko" label="한국어" src="./codexia-demo-ko.vtt" />
+        브라우저가 동영상 재생을 지원하지 않습니다.
+      </video>
+      <nav>
+        <a href="../">게임 플레이</a>
+        <a class="secondary" href="./codexia-demo.mp4">MP4 직접 열기</a>
+      </nav>
+      <small>자막과 음성을 포함합니다. 로그인이나 별도 설치가 필요하지 않습니다.</small>
+    </main>
+  </body>
+</html>
